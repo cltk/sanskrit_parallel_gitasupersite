@@ -1,2 +1,2 @@
 # sanskrit_parallel_gitasupersite
-Parallel corpus 
+Sanskrit-English Parallel corpus for srimad-bhagavadgita and valmiki-ramayana 
