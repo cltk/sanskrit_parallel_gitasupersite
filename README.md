@@ -1,2 +1,6 @@
 # sanskrit_parallel_gitasupersite
-Sanskrit-English Parallel corpus for srimad-bhagavadgita and valmiki-ramayana 
+Sanskrit-English Parallel corpus for 
+ - <a href="http://www.gitasupersite.iitk.ac.in/srimad?language=dv&field_chapter_value=1&field_nsutra_value=1">Srimad Bhagavadgita</a>
+ - <a href="http://www.valmiki.iitk.ac.in/">Valmiki Ramayana</a>
+
+These files are in the public domain (see LICENSE.md).
