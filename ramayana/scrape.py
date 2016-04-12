@@ -58,12 +58,12 @@ def Parse(val0, val1, val2):
       return None, None
    return san, en
    
-def get(Filename, sarga):
+def get(Filename, sarga, kandaid):
    Mem = []
    for i in xrange(1, sarga):
       Count = 0
       for j in xrange(1, 301):
-         san, en = Parse(1, i, j)
+         san, en = Parse(kandaid, i, j)
          if(san == None and en == None):
             Count += 1
             if(Count >= 20):
@@ -95,6 +95,6 @@ def get(Filename, sarga):
             if(Count >= 20):
                break
 
-Kandas = [('sundarakanda', 69), ('aranyakanda', 76), ('ayodhyakanda', 120), ('balakanda', 78), ('kishkindakanda', 68)]
-for kanda, sarga in Kandas:
-   get(kanda, sarga)
+Kandas = [('sundarakanda', 69, 5), ('aranyakanda', 76, 3), ('ayodhyakanda', 120, 2), ('balakanda', 78, 1), ('kishkindakanda', 68, 4)]
+for kanda, sarga, kandaid in Kandas:
+   get(kanda, sarga, kandaid)
